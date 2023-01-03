@@ -1,0 +1,359 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body  {
+    text-align: center;
+    
+    
+  }
+  
+  .container  {
+    position: absolute;
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+  }
+  
+    .dark  {
+    background-color: hsla(100,0%,0%,.6);
+     
+  }
+  
+  
+  
+  .wrapper  {
+    width:100%;
+    height: 100vh;
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg');
+    background-position: 70% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: hsla(0,0%,100%,.9);
+    display: table;
+  }
+  
+  
+  .headline  {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    white-space: nowrap;
+   
+  }
+  
+  .intro {
+    display: inline-block;
+    width: 100%;
+    background-color: hsla(100,0%,0%,.6);
+   
+  }
+  
+  h1  {
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  .headline h1  {
+    
+    font-size: 5rem;
+    line-height: 8rem;
+    color: #d2ba87;
+    padding: 1rem;
+  }
+  
+  .headline h2  {
+    
+    font-size: 1.45rem;
+    letter-spacing: .15rem;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 2rem;
+    margin: .75rem;
+    
+  }
+  
+  .container  {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+    color: #444349;
+  }
+  
+  
+  h1, h3, p, h2  {
+    
+    line-height: 2rem;
+    padding: 1rem;
+  }
+  
+  .dark  {
+    
+    line-height: 2.2rem;
+    padding: 1rem;
+    color: #d2ba87;
+  }
+  
+  .white  {
+    
+    color: #444349;
+  }
+    
+  h1  { 
+    line-height: 5rem;
+    font-size: 3.5rem;}
+  
+  h2  { 
+    
+    font-size: 1.7rem;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  
+  
+  
+  h3, p, li  {
+       font-family: 'Mulish', Arial;
+       font-weight: bold;
+    
+    
+  }
+  h3, p, li  { font-size: 1.3rem;}
+  
+  img  {
+    
+    padding: 1rem;
+  }
+  
+  
+  .firstline  {
+    
+    width: 35%;
+    border-top: solid 1px white;
+    
+  }
+  
+  .secondline  {
+    
+    display: inline-block;
+    width: 10%;
+    border-top: solid 1px;
+    
+  }
+  
+  .white hr  {
+    display: inline-block;
+    width: 35%;
+    border-top: solid 4px grey;
+     
+  }
+  
+  .dark hr  {
+  display: inline-block;
+    width: 35%;
+    border-top: solid 4px #d2ba87;
+  }
+  
+  footer  {
+    display: table;
+    padding: 1rem;
+    background-color: #606060;
+    color: white;
+    font-family: 'Mulish', Arial;
+    font-weight: bold;
+    line-height: 3rem;
+    height: 5rem;
+    width: 100%;
+    
+  }
+  
+  footer a  {
+    
+    color: #bd806e;
+  }
+  
+  footer a:hover  {
+    
+    color: #eda087;
+  }
+  
+  
+  .middle  {
+    
+    display: table-cell;
+    vertical-align: center;
+  }
+  
+  .questions h3  {
+    
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+  }
+  
+  .pink  {
+    
+   color: #bd806e;
+  }
+  .food, .stuff, .travel  {
+    
+    text-align: justify;
+  }
+  .left h2  {
+      text-align: left;
+    }
+  
+  .contact  {
+    
+    color: #d2ba87;
+  }
+  .timing  {
+    
+    text-align: left;
+  }
+  
+  .gifts  {
+    
+    padding: 2rem;
+  }
+  
+  
+  
+  .gifts  {
+    
+    padding: 1rem;
+  }
+  
+  
+  @media (min-width: 450px)  {
+    
+    
+    .intro {
+      
+      width: 70%;
+      border-radius: 4px;
+      
+    }
+    
+    .picture {
+      
+      display: inline-block;
+      padding: 2rem;
+    }
+  
+     .picture h2, .picture h3  {
+      
+      font-size: 1rem;
+    }
+    
+    img  {
+      
+      width: 9rem;
+    }
+    
+    .locations hr  { 
+      display: none;
+    }
+    
+    .program h2  {
+      
+      font-family: 'Mulish', Arial;
+    }
+    
+    .program li {
+     
+      text-align: left;
+      width: 100%;
+      
+    }
+    
+    
+    .program h1  {
+      
+      text-align: center;
+    }
+    
+    .program  {
+      
+      width: 100%;
+      height: 30rem;
+      text-align: center;
+      
+     
+      
+    }
+    
+    .bbox  {
+      
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .timing  {
+      
+      padding: 1rem;
+      width: 50%;
+      
+      
+      
+    }
+    
+    .left  {
+      
+      float: left;
+    }
+    
+    .food, .stuff, .travel {
+      width: 32.99%;
+      padding: 1rem;
+      
+    }
+    
+    
+    .left h3, .left p  {
+      font-size: 1.15rem;
+    }
+    .all::after  {
+      
+    content: "";
+    clear: both;
+    display: block;
+    }
+      
+   
+    
+    .questions hr  {
+      
+      display: none;
+    }
+    .container, .header  {
+      width: 100vw;
+    }
+    .uppercase  {
+      
+      text-transform: uppercase;
+    }
+    .intro h1  {
+      
+      font-size: 7.5rem;
+    }
+  }
+  
+  
