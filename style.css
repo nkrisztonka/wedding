@@ -31,7 +31,6 @@ body  {
 }
 
 .container  {
-  position: absolute;
   background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
 }
 
@@ -362,3 +361,4 @@ footer a:hover  {
     width: 100%;
   }
 }
+
